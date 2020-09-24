@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.View.ControllerCarro">
    <children>
-      <Button fx:id="inserirCarro" layoutX="14.0" layoutY="262.0" mnemonicParsing="false" onAction="#inserirCarros" prefHeight="59.0" prefWidth="98.0" text="NOVO(Criar)">
+      <Button fx:id="inserirCarro" layoutX="21.0" layoutY="262.0" mnemonicParsing="false" onAction="#inserirCarros" prefHeight="59.0" prefWidth="98.0" text="NOVO(Criar)">
          <font>
             <Font size="14.0" />
          </font>
@@ -77,12 +77,12 @@
       </Label>
       <TextField fx:id="textField_ID" layoutX="378.0" layoutY="75.0" onAction="#PesquisarCarroID" prefHeight="20.0" prefWidth="124.0" />
       <Label layoutX="273.0" layoutY="80.0" text="Pesquise a Modelo:" />
-      <Label fx:id="labelTextId" layoutX="555.0" layoutY="79.0" text="Modelo Selecionado:">
+      <Label fx:id="labelTextId" layoutX="548.0" layoutY="79.0" text="Modelo Selecionado:">
          <font>
             <Font size="10.0" />
          </font>
       </Label>
-      <Label fx:id="labelTextIdInserted" layoutX="656.0" layoutY="64.0" prefHeight="15.0" prefWidth="65.0">
+      <Label fx:id="labelTextIdInserted" layoutX="648.0" layoutY="80.0" prefHeight="15.0" prefWidth="65.0">
          <font>
             <Font size="10.0" />
          </font>
@@ -98,5 +98,10 @@
             <Font size="18.0" />
          </font>
       </Label>
+      <Button fx:id="inserirCarro1" layoutX="70.0" layoutY="405.0" mnemonicParsing="false" onAction="#Sair" prefHeight="32.0" prefWidth="98.0" text="Sair">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

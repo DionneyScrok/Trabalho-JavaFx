@@ -152,6 +152,16 @@ public class ControllerCarro extends Application implements Initializable {
 		});
 
 	}
+	   @FXML
+	    void Sair(ActionEvent event) {
+		  	Alert alert = new Alert(AlertType.WARNING);
+	    	alert.setTitle("Sair da Aplicação");
+	    	alert.setContentText("Saindo da aplicação !!!");
+	    	Optional<ButtonType> result = alert.showAndWait();
+	    	if (result.get() == ButtonType.OK){           
+	    		System.exit(0);
+	    	}
+	    }
 
 	@Override
 	public void start(Stage stage) {
